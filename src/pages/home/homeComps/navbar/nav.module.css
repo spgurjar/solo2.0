@@ -1,0 +1,114 @@
+.nav_body{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_body{
+    margin: 2rem;
+    margin-top: 4rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: white; */
+    width: 70rem;
+}
+
+.nav_items{
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_item{
+    color: rgba(255, 255, 255, 1);
+    margin: 2px;
+    margin-right: 1.5rem;
+    margin-top: 10px;
+   padding-bottom: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 19px;
+}
+
+.nav-item:hover{
+    color: rgba(152, 242, 79, 1);
+    border-bottom: 1px solid rgba(152, 242, 79, 1);
+    cursor: pointer;
+}
+
+.logoImg{
+    margin-top: 2px;
+    width: 5rem;
+}
+
+.logoImg:hover{
+    cursor: pointer;
+}
+
+.nav_child{
+    margin: 2rem 0;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.child_l{
+    display: flex;
+    flex-direction: column;
+    width: 636px;
+}
+.msg{
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clr_msg{
+    color: rgba(152, 242, 79, 1);
+   
+}
+.l_lower{
+    margin-top: 2rem;
+}
+.brand{
+    margin-right: 15px;
+    padding: 12px;
+    border-radius: 6px;
+    background-color: rgba(255, 222, 0, 1);
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.brand:hover{
+    box-shadow: 2px 1px 20px rgba(152, 212, 240, 0.911) ;
+}
+.creator{
+    margin-left: 15px;
+    padding: 12px;
+    border-radius: 6px;
+    background: linear-gradient(45deg, rgba(240, 148, 51, 1), rgba(230, 104, 60, 1), rgba(220, 39, 67, 1), rgba(204, 35, 102, 1), rgba(188, 24, 136, 1));
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.creator:hover{
+    box-shadow: 2px 1px 20px rgba(152, 212, 240, 0.805) ;
+}
+
+.nav_img{
+    width: 405px;
+    height: 397px;  
+}
+.nav-img:hover{
+    scale: 1.05;
+    transition: all 1s;
+}
+
+
+

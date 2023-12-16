@@ -1,0 +1,27 @@
+.atemp_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.a_head1{
+    margin: 3rem 0 1rem 0;
+    color: rgba(152, 242, 79, 1);
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a_head2{
+    
+    margin: 3.5rem 0 1rem 0;
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a_subhead{
+    padding: 0 20rem 0 20rem;
+    color: rgba(187, 187, 187, 1);
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+}

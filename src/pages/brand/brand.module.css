@@ -1,0 +1,19 @@
+.home_body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.About{
+   width: 100%;
+}
+
+.Help{
+    width: 100%;
+ }
+
+ .footer{
+    width: 100%;
+ } 

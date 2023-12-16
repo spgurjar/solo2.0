@@ -1,0 +1,63 @@
+.group_box {
+    
+    height: 30rem;
+    margin: 0rem 16rem 4rem 16rem;
+    position: relative;
+    
+  
+    .abtUs-heading {
+      color: #ffffff;
+      display: flex;
+      font-family: Roobert TRIAL, 'Source Sans Pro';
+      font-size: 136px;
+      font-weight: 600;
+      left: 10.5rem;
+      position: absolute;
+      text-transform: uppercase;
+      top: 24rem;
+    }
+
+    .rectangle_blackbox {
+      background: linear-gradient(180deg, #25262d -0%, rgba(37, 38, 45, 0) 100%);
+      border-radius: 580px;
+      width: 678px;
+      height: 315px;
+      left: 11rem;
+      position: absolute;
+      top: 14rem;
+    }
+
+    .rectangle-radialbox {
+      height: 306px;
+      left: 11.5rem;
+      position: absolute;
+      top: 14rem;
+      width: 726px;
+    }
+    .rec-rad1 {
+        background: radial-gradient(circle 11rem at 50% 50%, rgba(79, 223, 242, 0.255), rgba(79, 222, 242, 0));
+        height: 306px;
+        left: 14rem;
+        position: absolute;
+        top: 0;
+        width: 447px;
+      }
+    .rec-raad2 {
+        background: radial-gradient(circle 11rem at 50% 50%, rgba(152, 242, 79, 0.219), rgba(152, 242, 79, 0));
+        height: 306px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 447px;
+    }
+      
+    .abtUs-pic {
+      height: 416px;
+      left: 19rem;
+      object-fit: cover;
+      position: absolute;
+      top: 7rem;
+      vertical-align: top;
+      width: 416px;
+    }
+  }
