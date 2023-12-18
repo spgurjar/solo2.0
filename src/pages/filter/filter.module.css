@@ -1,0 +1,151 @@
+.SmallWindowContainer {
+    position: relative;
+    top: 2rem;
+  }
+
+  .filterButton{
+    padding: 1rem 3rem;
+    display: flex;
+    background-color: rgba(79, 222, 242, 0.8);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    cursor: pointer;
+  }
+
+  .filterIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .SmallWindow {
+    position: absolute;
+    top: 26rem;
+    right: -16.5rem;
+    width: 500px;
+    height: 650px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(37, 38, 45, 1);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999; 
+    display: none; 
+  }
+  
+  .SmallWindowContainer.active .SmallWindow {
+    display: flex; 
+    flex-direction: column;
+  }
+
+  .pfHead{
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    margin: 2rem 0 0 1.5rem;
+  }
+
+  .smHandles{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px 1rem 0 12px;
+  }
+  
+
+  .smApp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px;
+    padding: 1rem 1rem;
+    border: 1px solid rgba(25, 27, 35, 1);
+    border-radius: 10px;
+    background-color: rgba(25, 27, 35, 1);
+    cursor: pointer;
+  }
+  .smApp:hover{
+    border-color: rgba(152, 242, 79, 1);
+  }
+  .appIcon{
+    padding: 2px 13px;
+  }
+  .appName{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+  }
+
+  .sliderBox{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1.5rem 0;
+  }
+  .sliderHead{
+    margin-bottom: 1rem;
+    color: rgba(187, 187, 187, 1);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .silderQuantity{
+    display: flex;
+    justify-content: space-between;
+  }
+  .quant{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+  }
+  .sliderReset{
+    background-color: inherit;
+    outline: none;
+    border: none;
+    text-decoration: underline;
+    color: rgba(187, 187, 187, 1);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+  .silder{
+    margin: 1rem 5px 0 0;
+    accent-color: rgba(152, 242, 79, 1);
+    cursor: pointer;
+  }
+
+  .contentTypeBox{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 1.5rem;
+  }
+
+  .typeBox{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .typeName{
+    padding: 1.5rem 2.5rem;
+    background-color: rgba(25, 27, 35, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    border-radius: 10px;
+    border: 1px solid rgba(25, 27, 35, 1);
+    cursor: pointer;
+  }
+  .typeName:hover{
+    border-color: rgba(152, 242, 79, 1);
+  }
+  
+  

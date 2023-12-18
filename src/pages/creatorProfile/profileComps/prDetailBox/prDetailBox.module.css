@@ -1,0 +1,110 @@
+.detailBoxBody{
+    display: flex;
+    margin: 6rem 5rem 1rem 5rem;
+}
+
+.details1{
+    display: flex;
+    flex-direction: column;
+}
+
+.creatorName{
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2rem 0 1rem 0;
+}
+.followerPost{
+    display: flex;
+    color: rgba(79, 222, 242, 1);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    .postCount{
+        padding-left: 3rem;
+    }
+}
+.creatorIntro{
+    color: rgba(187, 187, 187, 1);
+    font-size: 16px;
+    margin: 1rem 0 0 0;
+    padding-right: 4rem;
+}
+.buttonBox{
+    display: flex;
+    margin: 2rem 0 1rem 0;
+    align-items: center;
+    cursor: pointer;
+}
+.msgButton{
+    display: flex;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: rgba(37, 38, 45, 1);
+    border-radius: 85px;
+    color: rgba(152, 242, 79, 1);
+    cursor: pointer;
+
+    .msgIcon{
+       font-size: 20px;
+    }
+
+    .msgBtn{
+        background-color: inherit;
+        border: none;
+        color: rgba(152, 242, 79, 1);
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+.budgetButton{
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding: 15px 1.9rem;
+    background-color: rgba(37, 38, 45, 1);
+    border-radius: 85px;
+
+    .moneyIcon{
+       width: 30px; 
+    }
+    .budget{
+        color: rgba(255, 222, 0, 1);
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 550;
+        margin: 0 10px;
+    }
+    .btext{
+        color: rgba(187, 187, 187, 1);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+.details2{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.prLinks{
+    display: flex;
+    margin: 1rem 0 1rem 12rem;   
+}
+.prLinkText{
+    color:rgba(152, 242, 79, 1) ;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 1rem;
+    
+}
+.smIcon{
+    color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.vdoBox{
+    margin-top: 1rem;
+    width: 472px;
+    height: 278px;
+}

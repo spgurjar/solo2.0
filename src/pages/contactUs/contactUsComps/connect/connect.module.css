@@ -1,0 +1,110 @@
+.connect_body{
+    margin: 3rem 18rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* position: relative; */
+}
+
+.connect_l{
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: spaceBetween;  */
+    width: 552px;
+    height: 370px;
+}
+.connect_l_upr{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+    text-align: start; 
+}
+.l_u_head{
+    color: rgba(255, 255, 255, 1); 
+    font-size: 32px;
+    font-family: Roobert TRIAL, 'Source Sans Pro';
+    font-weight: 500;
+}
+.l_u_subhead{
+    margin: 1rem 0;
+    color: rgba(187, 187, 187, 0.5);
+    font-size: 20px;
+    font-family:Roobert TRIAL, 'Source Sans Pro';
+}
+.connect_l_lower{
+    margin: 2rem 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+.c_box{
+    display: flex;
+    flex-direction: row;
+}
+  .connect_logo{
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+     color: rgba(255, 255, 255, 1);
+     font-size: 1.5rem;
+     cursor: pointer;
+  }
+  .connect_text{
+     color: rgba(255, 255, 255, 1);
+     font-size: 20px;
+     font-family: Roobert TRIAL, 'Source Sans Pro' ;
+     cursor: pointer;
+  }
+
+.connect_r{
+    position: relative;
+    width: 363px;
+    height: 434px;
+}
+
+  .rect_box{
+    position: absolute;
+    border-radius: 110px;
+    background: linear-gradient(to bottom, rgba(79, 222, 242, 0.57) , rgba(79, 222, 242, 0));
+    width: 363px;
+    height: 434px;
+    left: 3rem;
+  }
+  .circle_box{
+    position: absolute;
+    width: 365px;
+    height: 365px;
+    left: 3rem;
+    top: 2rem;
+  }
+  .circle1{
+    position: absolute;
+    background: radial-gradient(circle 13rem at 50% 50%, rgba(152, 242, 79, 0.688), rgba(152, 242, 79, 0));
+    width: 380px;
+    height: 400px;
+  }
+  .circle2{
+    position: absolute;
+    background: radial-gradient(circle 9rem at 50% 50%, rgba(152, 242, 79, 0.619), rgba(152, 242, 79, 0));
+    width: 288px;
+    height: 288px;
+    left: 1.5rem;
+    top: 1rem;
+  }
+  .circle3{
+    position: absolute;
+    background: radial-gradient(circle 7rem at 50% 50%, rgb(152, 242, 79), rgba(152, 242, 79, 0));
+    width: 230px;
+    height: 230px;
+    left: 3.5rem;
+    top: 3rem;
+  }
+
+  .connect_pic{
+    position: absolute;
+    right: 0.1px;
+    left: 40px;
+    top: 3.5rem;
+  }

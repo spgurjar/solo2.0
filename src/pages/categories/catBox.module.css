@@ -1,0 +1,31 @@
+.catbox_body{
+
+    display: flex; 
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 2.5rem;
+    
+}
+
+.cat_name{
+
+    color: rgba(187, 187, 187, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+.cat_name:hover{
+    color: rgba(152, 242, 79, 1);
+}
+.cat_img{
+
+    margin: 1rem;
+    margin-bottom: 1rem;
+    width: 135px;
+    height: 135px;
+}
+
+.cat_img:hover{
+    scale: 1.1;
+    transition: all 1s;
+}

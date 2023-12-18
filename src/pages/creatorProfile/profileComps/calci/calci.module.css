@@ -1,0 +1,77 @@
+.calciBody{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 3rem 3rem 5rem;
+}
+
+.calciResult{
+    display: flex;
+    flex-direction: column;
+
+    .calciHead{
+        margin-bottom: 1rem;
+        color: rgba(255, 255, 255, 1);
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 550;
+    }
+    .calciSub{
+        margin-bottom: 2rem;
+        color: rgba(187, 187, 187, 1);
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+.calciBox{
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(132.75deg, rgba(79, 105, 242, 0.15) -3.98%, rgba(200, 55, 171, 0.15) 109.04%);
+    border-radius: 10px;
+
+    .calciCount{
+        margin-bottom: 1rem;
+        color: rgba(79, 222, 242, 1);
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 550;
+    }
+    .calciCap{
+        color: rgba(187, 187, 187, 1);
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 18rem;
+    }
+}
+
+.calciSliders{
+    display: flex;
+    flex-direction: column;
+    margin: 3.5rem 3rem 1rem 0;
+}
+.sliderContainer{
+    display: flex;
+    flex-direction: column;
+    width: 31rem;
+    
+    .calciSliderHead{
+        color: rgba(187, 187, 187, 1);
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .calciSlider{
+        margin: 1rem 5px 1rem 0;
+        accent-color: rgba(255, 222, 0, 1);
+        cursor: pointer;
+        border: none;
+        width: 29rem; 
+    }
+   
+    
+    .slideBox{
+        margin-bottom: 1.5rem;
+        color: rgba(255, 222, 0, 1);
+    }
+}
+

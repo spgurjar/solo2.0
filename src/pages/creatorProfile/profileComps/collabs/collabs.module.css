@@ -1,0 +1,30 @@
+.collabBox{
+    display: flex;
+    flex-direction: column;
+    
+}
+.DateViews{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+
+    .contentDate{
+        color: rgba(255, 255, 255, 1);
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 550;
+    }
+    .contentViews{
+        margin-left: 5rem;
+        color: rgba(187, 187, 187, 0.5);
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+.collabCap{
+    margin: 1rem 0;
+    width: 240px;
+    color: rgba(187, 187, 187, 1);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}

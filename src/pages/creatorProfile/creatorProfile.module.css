@@ -1,0 +1,44 @@
+.profileBody{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(8, 8, 8, 0.96);
+    height: 100%;
+    display: grid;
+    grid-gap: 0rem;
+    grid-template-columns: minmax(0,0.6fr) minmax(0,2.91fr)
+}
+.profileContent{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 2rem; */
+}
+.collab{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0 1rem 5rem;
+
+    .collabHead{
+        margin-bottom: 2rem;
+        color: rgba(255, 255, 255, 1);
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 550;
+    }
+
+    .collabDetails{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+        margin-right: 5rem;
+    }
+}
+.viewMore{
+    text-align: end;
+    text-decoration: underline;
+    margin: 2rem 7rem 2rem 0;
+    color: rgba(79, 222, 242, 1);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    cursor: pointer;
+}

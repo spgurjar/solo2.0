@@ -1,4 +1,6 @@
+import Link from 'next/link'; 
 import { useState } from "react";
+import React from "react";
 import styles from "./nav.module.css";
 
 // import logo from './logo.png';
@@ -16,7 +18,10 @@ export const Nav = ({ onButtonClick }) => {
              <img className={styles.logoImg} src = "/images/logo.png" alt ="" />
              <div className={styles.nav_items}>
                 <span className={styles.nav_item}>Search</span>
-                <span className={styles.nav_item}>About Us</span>
+                <span className={styles.nav_item}>About Us</span>               
+                {/* <Link href="/aboutUs">
+                        <span className={styles.nav_item}>About Us</span>
+                    </Link> */}
                 <span className={styles.nav_item}>Sign up</span>
                 <span className={styles.nav_item}>Log in</span>
              </div>  

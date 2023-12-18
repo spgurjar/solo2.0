@@ -23,7 +23,7 @@ export const Footer = () => {
                     <div><span className={styles.gtext}>creators</span></div>
                     <div className={styles.ftext}><span className={styles.ftext}>install solo</span></div>
                     <div className={styles.icons}>
-                        <img className={styles.logoImgF} src = "/pages/logoF.png" alt ="" />
+                        <img className={styles.logoImgF} src = "/images/logoF.png" alt ="" />
                         <FaLinkedin className={styles.icons} />
                         <FaInstagramSquare className={styles.icons}/>
                         <GrMail className={styles.icons}/>

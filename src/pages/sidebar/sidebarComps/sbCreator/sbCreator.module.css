@@ -1,0 +1,24 @@
+.sbCreatorBody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.creatorProfile{
+    margin: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.creatorNameSeen{
+    margin: 4px 12px;
+    display: flex;
+    flex-direction: column;
+}
+.crName{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.crDate{
+    margin-right: 1rem;
+}

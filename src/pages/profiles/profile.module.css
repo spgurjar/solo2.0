@@ -1,0 +1,39 @@
+.profile_body{
+    text-decoration: none;
+    /* display: flex; */
+    margin-top: 4rem;
+}
+
+.pr_content{
+    text-decoration: none;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.pr_row{
+    
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pr_box{
+    
+    margin-right: 2.5rem;
+    margin-left: 1rem;
+}
+
+.pr_row a {
+    text-decoration: none;
+    color: inherit; /* Inherit the color from the parent */
+  }
+  
+.pr_heading{
+
+    /* margin-left: 3rem; */
+    color: rgba(152, 242, 79, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}

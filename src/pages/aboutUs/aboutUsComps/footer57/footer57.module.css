@@ -1,0 +1,70 @@
+.footer_body57{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(20, 22, 28, 1);
+}
+
+
+
+.upr_content{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.colm{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.gtext{
+    color: rgba(152, 242, 79, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.ftext{
+    margin-top: 1rem;
+    color: rgba(187, 187, 187, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 0.5rem;
+    font-size: 30px;
+    margin-right: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.logoImgF{
+    width: 3rem;
+    height: 2rem ;
+    margin-right: 5px;
+}
+
+.cp_rt{
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.copyright{
+    color: rgba(82, 82, 91, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.netz{
+    color: rgba(0, 172, 149, 1);
+    cursor: pointer;
+}
+.heart{
+    color: red;
+}

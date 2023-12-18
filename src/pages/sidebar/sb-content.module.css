@@ -1,0 +1,34 @@
+/* .sb_content{
+
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+} */
+
+.sb_content{
+
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;  
+    font-family: Arial, Helvetica, sans-serif ; 
+   
+}
+
+.sb_content:hover{
+   color: rgba(255, 255, 255, 1) ;
+   background-color: rgba(37, 38, 45, 1);
+   cursor: pointer;
+}
+
+.sb_logo{
+
+    margin-right: 7px;
+    font-size: 17px;
+}
+
+.sb_text{
+
+    font-size: 18px;
+}
