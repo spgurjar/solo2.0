@@ -1,6 +1,7 @@
-.SmallWindowContainer {
+.smallWindowContainer {
     position: relative;
     top: 2rem;
+    padding-right: 2rem;
   }
 
   .filterButton{
@@ -23,10 +24,10 @@
     margin-right: 10px;
   }
   
-  .SmallWindow {
+  .smallWindow {
     position: absolute;
     top: 26rem;
-    right: -16.5rem;
+    right: -16.5;
     width: 500px;
     height: 650px;
     transform: translate(-50%, -50%);
@@ -38,7 +39,7 @@
     display: none; 
   }
   
-  .SmallWindowContainer.active .SmallWindow {
+  .smallWindowContainer.active .smallWindow{
     display: flex; 
     flex-direction: column;
   }
@@ -56,6 +57,10 @@
     justify-content: space-between;
     border-radius: 10px;
     padding: 10px 1rem 0 12px;
+  }
+
+  .smHandlesResp{
+    display: none;
   }
   
 
@@ -148,4 +153,93 @@
     border-color: rgba(152, 242, 79, 1);
   }
   
+
+@media screen and (max-width: 1050px) {
+  .filterButton{
+    padding: 1rem 1.5rem;
+  }
+  .smallWindow{
+    right: -14rem;
+  }
+}
+@media screen and (max-width: 730px) {
+  .smallWindow{
+    width: 300px;
+    height: auto;
+    right: -7rem;
+    top: 22.5rem;
+  }
+  .smHandles{
+    display: none;
+  }
+  .smHandlesResp{
+    display: flex;
+  }
+  .smApp{
+    padding: 7px 2px;
+    margin: 1.5rem 14px 0;
+  }
+  .appIcon{
+    padding: 2px 6px;
+  }
+  .appIconPic{
+    width: 30px;
+  }
+  .typeName{
+    padding: 0.8rem 1rem;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .smallWindow{
+    width: 200px;
+    top: 18.5rem;
+    height: 470px;
+  }
+  .appIconPic{
+    width: 20px;
+  }
+  .smApp{
+    margin: 1.5rem 6px 0;
+  }
+  .pfHead{
+    font-size: 15px;
+    margin: 1rem 0 0 1rem;
+  }
+  .sliderBox{
+    margin-left: 1rem;
+  }
+  .sliderHead{
+    font-size: 15px;
+    margin-left: 0;
+  }
+  .quant{
+    font-size: 15px;
+  }
+  .contentTypeBox{
+    margin: 2rem 1rem;
+  }
+  .typeName{
+    padding: 0.8rem 10px;
+    font-size: 12px;
+    margin-bottom: 0;
+    margin: 0 2px;
+  }
+
+  .filterButton{
+    /* margin-top: 2px; */
+    padding: 13px 12px;
+    font-size: 12px;
+  }
+  .filterIcon{
+    width: 15px;
+    height: 12px;
+    margin-right: 2px;
+    margin-top: 2px;
+  }
+  .smallWindowContainer{
+    padding-right: 0rem;
+  }
+}
   

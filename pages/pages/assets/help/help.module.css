@@ -1,0 +1,30 @@
+.help_body{
+    margin: 4rem 0 3rem 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(25, 27, 35, 1);
+}
+.head{
+    margin: 3rem 0 2rem 0;
+    color: rgba(255, 222, 0, 0.8);
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+.subHead{
+    margin: 1rem 0 3rem 0;
+    color: rgba(187, 187, 187, 1);
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.get_started{
+    margin: 1rem 0 3rem 0;
+    padding: 1rem 0 1rem 0;
+    border-radius: 10px;
+    background-color: rgba(79, 222, 242, 1);
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+}

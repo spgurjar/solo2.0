@@ -4,6 +4,7 @@
     padding: 0px;
     display: flex;
     position: fixed;
+  
     background-color: rgba(25, 27, 35, 1);
     color: rgb(132, 133, 139);
     height: 100%;
@@ -21,6 +22,10 @@
     margin-top: 2rem;
     margin-left: 2rem;
     margin-bottom: 12rem;
+}
+.upperSB a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .lowerSB{

@@ -8,7 +8,20 @@
 .SearchFilter{
     display: flex;
     margin-right: 2.5rem;
+    justify-content: space-around;
 }
-.profiles{
+/* .profiles{
     text-decoration: none;
+} */
+
+@media screen and (max-width: 1050px) {
+    .SearchFilter{
+        width: 100vw;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 500px) {
+    .SearchFilter{
+        justify-content: center;
+    }
 }

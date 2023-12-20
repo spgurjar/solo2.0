@@ -1,6 +1,8 @@
+// "use client"
 import React from "react";
-import { useState } from "react";
+import Link from "next/link";
 import styles from "./sidebar.module.css";
+import { useState } from "react";
 import {SbContent} from "./sb-content";
 import { FaGlobeAmericas } from "react-icons/fa";
 import { MdOutlineMessage } from "react-icons/md";
@@ -16,13 +18,14 @@ export const SideBar = () => {
    setShowChild(!showChild);
  };
 
- return(
-    
-    <div className={`sb_body ${showChild ? "active" : ""}`}>
+ return(  
+   <div className={`${styles.sb_body} ${showChild ? styles.active : ""}`} >
+
+      {/* // <div className={`sb_body ${showChild ? "active" : ""}`}> */}
       <div>
          <div className={styles.soloHead}>Solo</div>
          <div className={styles.upperSB}> 
-            <SbContent logo = {<FaGlobeAmericas/>} text = "Discover"/>
+            <Link href="/SignUp"><SbContent logo = {<FaGlobeAmericas/>} text = "Discover"/></Link>
             <div onClick={toggleVisibility}><SbContent logo = {<MdOutlineMessage/>} text = "Messages"  /></div>
             <SbContent logo = {<IoMdContact/>} text = "Top 100 Creatores"/>
          </div>
@@ -33,8 +36,8 @@ export const SideBar = () => {
          </div>
       </div>
 
-      <div className={styles.SbChildContainer} >
-      <SbChild/>
+      <div className={styles.SbChildContainer}>
+           <SbChild/>
       </div>
     </div>
     

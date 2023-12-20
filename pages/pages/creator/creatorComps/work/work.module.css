@@ -1,0 +1,28 @@
+.work_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-cr-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wCrImg{
+    margin: 0 2rem 3rem 2rem;
+    /* width: 832px;
+    height: 605px; */
+    width: 632px;
+    height: 405px;
+}
+.wCrImg:hover{
+    box-shadow: 2px 1px 30px rgba(173, 216, 230, 0.707)
+}

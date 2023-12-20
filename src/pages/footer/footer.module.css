@@ -11,7 +11,9 @@
 
     
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .colm{
@@ -68,4 +70,24 @@
 }
 .heart{
     color: red;
+}
+
+@media screen and (max-width: 703px) {
+   .colm{
+    align-items: center;
+    margin: 2rem;
+   }
+   .ftext{
+    font-size: 20px;
+   }
+   .gtext{
+    font-size: 20px;
+   }
+   .cp_rt{
+    display: flex;
+    text-align: center;
+   }
+   .copyright{
+    font-size: 17px;
+   }
 }

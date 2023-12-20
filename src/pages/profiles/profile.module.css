@@ -1,39 +1,45 @@
 .profile_body{
-    text-decoration: none;
+    /* text-decoration: none; */
     /* display: flex; */
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .pr_content{
-    text-decoration: none;
+    /* text-decoration: none; */
     margin-top: 2rem;
     margin-bottom: 3rem;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 .pr_row{
     
-    margin-top: 2rem;
     margin-bottom: 1rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .pr_box{
-    
-    margin-right: 2.5rem;
-    margin-left: 1rem;
+    margin: 2rem;
+    /* margin-right: 2.5rem;
+    margin-left: 1rem; */
 }
 
 .pr_row a {
     text-decoration: none;
-    color: inherit; /* Inherit the color from the parent */
   }
   
 .pr_heading{
 
-    /* margin-left: 3rem; */
+    margin-left: 5rem;
     color: rgba(152, 242, 79, 1);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1450px) {
+    .pr_heading{
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
 }

@@ -1,0 +1,32 @@
+.sbChildBody{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(37, 38, 45, 1);
+    width: 340px;
+    height: 1136px;
+}
+.searchBody{
+    padding: 12px;
+    display: flex;
+    margin: 5rem 2rem 1rem;
+    background-color: rgba(25, 27, 35, 1);
+    border-radius: 10px;
+}
+.sIcon{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 1rem;
+}
+.searchInput{
+    margin-left: 10px;
+    color: rgba(187, 187, 187, 1);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    outline: none;
+}
+  
+.searchInput{
+    background-color: inherit;
+    border: none;
+}

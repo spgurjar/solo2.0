@@ -1,0 +1,142 @@
+.signIncover{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: minmax(0,3.3fr) minmax(0,3.15fr);
+    margin: 0;
+    background-color: rgba(0, 0, 0, 1);
+   
+}
+.signInForm{
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 5rem 2rem 8rem;
+    align-items: center;
+    /* height: 100vh; */
+    /* width: 50%; */
+}
+
+.signInHead{
+    display: flex;
+    margin-bottom: 1rem;
+    color: rgba(152, 242, 79, 1);
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    align-items: center;
+}
+.textHead{
+    display: flex;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2rem 0;
+    align-items: center;
+}
+.textArea{
+    background-color: rgba(25, 27, 35, 1);
+    align-items: center;
+    font-size: 20px;
+    color: rgba(187, 187, 187, 0.5);
+    border: none;
+    border-radius: 10px;
+    padding: 1rem 10rem 1rem 12rem;
+}
+.btnBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.signInbtn {
+    display: flex;
+    margin: 3rem 0 0;
+    background-color: rgba(152, 242, 79, 1);
+    font-size:  20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    border: none;
+    border: none;
+    padding: 10px 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.Gbtn {
+    display: flex;
+    align-items: center;
+    margin: 3rem 0 0;
+    background-color: rgba(25, 27, 35, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size:  24px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    padding: 12px 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.gbtn {
+    align-items: center;
+    background-color: inherit;
+    color: rgba(255, 255, 255, 1);
+    font-size:  24px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+    /* padding: 12px 1.5rem; */
+}
+.gIcon{
+    width: 2rem;
+}
+
+.sidepart{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(135deg, rgb(12, 0, 68) , rgba(12, 0, 68, 0) );
+}
+.sidepartUpr{
+    /* padding-left: 1rem; */
+    margin: 2rem 3rem 0 3rem;
+    display: flex;
+    align-items: center;
+}
+.uprText{
+    color: rgba(255, 255, 255, 1);
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+.uprDesign{
+    padding-top: 2rem;
+}
+.design1{
+    padding-left: 6.1rem;
+}
+.design2{
+    padding-right: 4rem;
+}
+.design3{
+    padding-left: 8rem;
+}
+
+.lowerDesign{
+    position: relative;
+}
+.design4{
+    position: absolute;
+    left: 4.5rem;
+    top: -2rem;
+    .sign4{
+        width: 550px;
+        height: 350px;
+    }
+}
+.design5{
+    position: absolute;
+    right: 14rem;
+    top: -5rem;
+    .sign5{
+       width: 310px;
+       height: 400px;
+    }
+}

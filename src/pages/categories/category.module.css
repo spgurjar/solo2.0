@@ -7,7 +7,7 @@
 }
 
 .cat_heading{
-
+    margin-left: 1.5rem;
     color: rgba(255, 222, 0, 1); 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px; 
@@ -16,6 +16,22 @@
 .cat_content{
 
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 762px) {
+    .cat_body{
+        margin-top: 3rem;
+    }
+    .cat_heading{
+        margin-left: 0;
+        font-size: 20px;
+    }
+    .cat_head{
+        display: flex;
+        justify-content: center;
+    }
 }

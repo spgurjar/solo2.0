@@ -1,0 +1,21 @@
+.cat_body{
+
+    margin: 3rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cat_heading{
+    margin-left: 1.5rem;
+    color: rgba(255, 222, 0, 1); 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+}
+
+.cat_content{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

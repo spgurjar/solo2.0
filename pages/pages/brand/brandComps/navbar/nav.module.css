@@ -1,0 +1,116 @@
+.nav_body{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerBody{
+    margin: 2rem;
+    margin-top: 4rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: white; */
+    width: 60rem;
+}
+
+.nav_items{
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_item{
+    color: rgba(255, 255, 255, 1);
+    margin: 2px;
+    margin-right: 1.5rem;
+    margin-top: 10px;
+    padding-bottom: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 19px;
+}
+
+.nav-item:hover{
+    color: rgba(152, 242, 79, 1);
+    border-bottom: 1px solid rgba(152, 242, 79, 1);
+    cursor: pointer;
+}
+
+.logoImg{
+    margin-top: 2px;
+    width: 6.5rem;
+    height: 3rem;
+}
+
+.logoImg:hover{
+    cursor: pointer;
+}
+
+.navBr_child{
+    margin: 4rem 0;
+    /* padding: 0 5rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+}
+
+.childBr_l{
+    /* padding-left: 4rem; */
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.lBr_upr{
+    /* padding: 0 4rem 0 1rem; */
+    /* margin-left: 5rem; */
+    display: flex;
+    text-align: start;
+}
+.msg{
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clr_msg{
+    color: rgba(79, 222, 242, 1);
+   
+}
+.lBr_lower{
+    margin-top: 2rem;
+}
+.join{
+    padding: 12px 12px 12px 6.5rem;
+    /* margin-right: 8rem; */
+    border-radius: 6px;
+    background-color: rgba(79, 222, 242, 1);
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    width: 20rem;
+    display: flex;
+    align-items: start;
+}
+.brand:hover{
+    box-shadow: 2px 1px 20px rgba(152, 212, 240, 0.911) ;
+}
+
+.navBr_img{
+    /* padding-right: 4rem; */
+    /* margin-right: 2rem; */
+    width: 450px;
+    height: 340px;  
+}
+.navBr-img:hover{
+    scale: 1.05;
+    transition: all 1s;
+}
+
+
+

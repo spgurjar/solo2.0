@@ -10,8 +10,8 @@ export const MainBar = () => {
         <div className={styles.main_body}>
          <div><Header/></div>
          <div className={styles.SearchFilter}>
-         <div><Search/></div>
-         <div><SmallWindow/></div>
+           <div><Search/></div>
+           <div><SmallWindow/></div>
          </div>
          <div><Category/></div>
          <div className={styles.profiles}><Profile/> </div>

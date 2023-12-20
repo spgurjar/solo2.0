@@ -1,3 +1,4 @@
+
 import styles from "./filter.module.css";
 import React, { useState } from "react";
 // import FilterIcon from "./FilterIcon.png";
@@ -23,30 +24,51 @@ export const SmallWindow = () => {
     };
 
   return (
-    <div className={`SmallWindowContainer ${isActive ? "active" : ""}`}>
+    <div className={`${styles.smallWindowContainer} ${isActive ? styles.active : ""}`}>
        <button onClick={toggleVisibility} className={styles.filterButton}><img className={styles.filterIcon} src="/images/FilterIcon.png" />Filter</button>
-       <div className={styles.SmallWindow}>
+       <div className={styles.smallWindow}>
 
            <div className={styles.pfHead}>Plateform</div>
            <div className={styles.smHandles}>
                <div className={styles.smApp}>
-                 <div className={styles.appIcon}><img src="/images/insta.png"/></div>
+                 <div className={styles.appIcon}><img  src="/images/insta.png"/></div>
                  <div className={styles.appName}>Instagram</div>
                </div>
                <div className={styles.smApp}>
-                 <div className={styles.appIcon}><img src="/images/fb.png"/></div>
+                 <div className={styles.appIcon}><img   src="/images/fb.png"/></div>
                  <div className={styles.appName}>Facebook</div>
                </div>
                <div className={styles.smApp}>
-                 <div className={styles.appIcon}><img src="/images/ytb.png"/></div>
+                 <div className={styles.appIcon}><img   src="/images/ytb.png"/></div>
                  <div className={styles.appName}>Youtube</div>
                </div>
                <div className={styles.smApp}>
-                 <div className={styles.appIcon}><img src="/images/x.png"/></div>
+                 <div className={styles.appIcon}><img   src="/images/x.png"/></div>
                  <div className={styles.appName}>Twitter</div>
                </div>
            </div>
 
+           {/* ResponsiveComponent  */}
+           <div className={styles.smHandlesResp}>
+               <div className={styles.smApp}>
+                 <div className={styles.appIcon}><img className={styles.appIconPic} src="/images/insta.png"/></div>
+                
+               </div>
+               <div className={styles.smApp}>
+                 <div className={styles.appIcon}><img className={styles.appIconPic} src="/images/fb.png"/></div>
+                 
+               </div>
+               <div className={styles.smApp}>
+                 <div className={styles.appIcon}><img className={styles.appIconPic} src="/images/ytb.png"/></div>
+                
+               </div>
+               <div className={styles.smApp}>
+                 <div className={styles.appIcon}><img className={styles.appIconPic} src="/images/x.png"/></div>
+                 
+               </div>
+           </div>
+
+       
            <div className={styles.sliderBox}>
               <div className={styles.sliderHead}>Audience</div>
               <div className={styles.silderQuantity}>

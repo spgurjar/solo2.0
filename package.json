@@ -9,11 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "file-loader": "^6.2.0",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^4.12.0",
-    "react-router-dom": "^6.21.0"
+    "react-player": "^2.14.0",
+    "react-router-dom": "^6.21.0",
+    "react-video": "^1.5.3",
+    "video-react": "^0.16.0"
   },
   "devDependencies": {
     "@types/node": "^20",

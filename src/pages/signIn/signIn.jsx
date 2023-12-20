@@ -8,7 +8,7 @@ import sign4 from "./sign4.png";
 import sign5 from "./sign5.png";
 
 
-export const SignIn = () => {
+const SignIn = () => {
     const[email,setEmail]=useState("");
     const[password,setPassword]=useState("");
 
@@ -65,3 +65,5 @@ export const SignIn = () => {
         </div>
     )
 }
+
+export default SignIn;

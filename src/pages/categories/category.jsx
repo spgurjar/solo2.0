@@ -13,7 +13,7 @@ export const Category = () => {
     return(
         <div className={styles.cat_body}>
             <div className={styles.cat_head}>
-                <span className={styles.cat_heading}>Search by category</span>
+                <div><span className={styles.cat_heading}>Search by category</span></div>
             </div>
            <div className={styles.cat_content}>
              

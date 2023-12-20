@@ -1,0 +1,40 @@
+.brandCredFormBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CredForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.colmTitle{
+    margin: 1rem;
+    color: rgba(187, 187, 187, 1);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.credInput{
+    margin: 1rem;
+    background-color: rgba(37, 38, 45, 0.5);
+    color: rgba(187, 187, 187, 1);
+    /* font-size: 20px; */
+    border: none;
+    padding: 13px 10rem;
+    border-radius: 10px;
+}
+.submitBtn{
+    margin-top: 2rem;
+    margin-left: 15px;
+    background-color: rgba(152, 242, 79, 1);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 4rem;
+    width: 482px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    cursor: pointer;
+}

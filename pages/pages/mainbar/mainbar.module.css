@@ -1,0 +1,14 @@
+.main_body{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SearchFilter{
+    display: flex;
+    margin-right: 2.5rem;
+}
+/* .profiles{
+    text-decoration: none;
+} */
