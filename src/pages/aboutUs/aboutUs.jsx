@@ -9,7 +9,7 @@ export const AboutUs = () => {
     return(
         <div className={styles.desk57_body}>
             <div><NavHead/></div>
-            <div><AbtUs/> </div>
+            {/* <div><AbtUs/> </div> */}
             <div><Para/></div>
             <div className={styles.footer57}><Footer57/></div>
         </div>

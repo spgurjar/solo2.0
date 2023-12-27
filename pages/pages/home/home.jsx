@@ -1,13 +1,13 @@
 import { useState } from "react";
 import styles from "./home.module.css";
-
-import { Nav } from "./homeComps/navbar/nav";
+// import { Header } from "../../../src/pages/main-header/mh";
+import {Nav}   from "./homeComps/navbar/nav";
 import { About } from "./homeComps/about/about";
 import { Work } from "./homeComps/work/works";
 import { Help } from "../assets/help/help";
-import { Footer } from "../assets/footer/footer";
+import { Footer } from "../../../src/pages/footer/footer";
 
-export const Home = ({ onButtonClick }) => {
+const Home = ({ onButtonClick }) => {
     const [selectedComponent, setSelectedComponent] = useState('home');
   
     const handleButtonClick = (component) => {
@@ -15,7 +15,7 @@ export const Home = ({ onButtonClick }) => {
       onButtonClick(component);
     };
 
-    return(
+    return( 
         <div className={styles.home_body}>
             <div><Nav onButtonClick={handleButtonClick} /> </div> 
             <div className={styles.About}><About/></div> 
@@ -25,3 +25,5 @@ export const Home = ({ onButtonClick }) => {
         </div>
     )
 }
+
+export default Home;

@@ -59,10 +59,38 @@
 
 }
 .userNote{
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     margin-top: 2rem;
-    padding: 0 30rem;
+    padding: 0 3rem;
     color: rgba(187, 187, 187, 1);
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 300px) {
+    .userPic{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .que{
+        font-size: 20px;
+    }
+    .link{
+        padding: 10px 4rem;
+    }
+    .adminBtn{
+        font-size: 16px;
+    }
+    .adminIcon{
+        width: 18px;
+    }
+    .brandBtn{
+        font-size: 16px;
+    }
+    .brandIcon{
+        width: 18px;
+    }
 }

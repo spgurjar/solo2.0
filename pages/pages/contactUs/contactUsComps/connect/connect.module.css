@@ -1,8 +1,10 @@
 .connect_body{
-    margin: 3rem 18rem;
+    margin: 4rem 4rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    /* flex-direction: row;
+    justify-content: space-between; */
+    flex-wrap: wrap-reverse;
+    justify-content: center;
     /* position: relative; */
 }
 
@@ -15,7 +17,7 @@
     height: 370px;
 }
 .connect_l_upr{
-    margin: 2rem 0;
+    margin: 1rem 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;  
@@ -59,9 +61,11 @@
   }
 
 .connect_r{
-    position: relative;
-    width: 363px;
-    height: 434px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 363px;
+  height: 434px;
 }
 
   .rect_box{
@@ -70,13 +74,13 @@
     background: linear-gradient(to bottom, rgba(79, 222, 242, 0.57) , rgba(79, 222, 242, 0));
     width: 363px;
     height: 434px;
-    left: 3rem;
+    
   }
   .circle_box{
     position: absolute;
     width: 365px;
     height: 365px;
-    left: 3rem;
+    /* left: 3rem; */
     top: 2rem;
   }
   .circle1{
@@ -105,6 +109,84 @@
   .connect_pic{
     position: absolute;
     right: 0.1px;
-    left: 40px;
+    /* left: 40px; */
     top: 3.5rem;
+  }
+
+  @media screen and (max-width: 1043px) {
+    .connect_l{
+      align-items: center;
+      justify-content: center;
+    }
+    .connect_l_upr{
+      text-align: center;
+      justify-content: center;
+    }
+    .connect_l_lower{
+      align-items: center;
+      justify-content: center;
+    }
+    
+  }
+
+  @media screen and (max-width: 700px) {
+       .connect_l{
+        width: auto;
+       }
+       .l_u_head{
+        font-size: 25px;
+       }
+       .l_u_subhead{
+        font-size: 16px;
+       }
+       .connect_logo{
+        font-size: 20px;
+       }
+       .connect_text{
+        font-size: 16px;
+       }
+  }
+
+  @media screen and (max-width: 500px){
+    .connect_body{
+      margin: 2rem 1rem;
+    }
+      .connect_r{
+        width: 250px;
+        height: 300px;
+      }
+      .circle_box{
+        width: 250px;
+      }
+      .rect_box{
+        width: 250px;
+        height: 300px;
+        border-radius: 60px;
+      }
+      .circle1{
+        background: radial-gradient(circle 10rem at 50% 50%, rgba(152, 242, 79, 0.688), rgba(152, 242, 79, 0));
+        width: 250px;
+        height: 300px;
+        top: -20px;
+      }
+      .circle2{
+        background: radial-gradient(circle 7rem at 50% 50%, rgba(152, 242, 79, 0.619), rgba(152, 242, 79, 0));
+        width: 260px;
+        height: 260px;
+        left: -5px;
+        top: -20px;
+      }
+      .circle3{
+        background: radial-gradient(circle 5rem at 50% 50%, rgb(152, 242, 79), rgba(152, 242, 79, 0));
+        width: 210px;
+        height: 210px;
+        left: 1.4rem;
+        top: 5px;
+      }
+      .connect_pic{
+        width: 260px;
+        top: 1.5rem;
+        right: 0;
+        left: -5px;
+      }
   }

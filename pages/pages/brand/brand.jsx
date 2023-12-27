@@ -4,9 +4,9 @@ import { Nav } from "./brandComps/navbar/nav";
 import { About } from "./brandComps/about/about";
 import { Work } from "./brandComps/work/works";
 import { Help } from "../assets/help/help";
-import { Footer } from "../assets/footer/footer";
+import { Footer } from "../../../src/pages/footer/footer";
 
-export const Brand = () => {
+const Brand = () => {
     return(
         <div className={styles.home_body}>
             <div><Nav/> </div> 
@@ -17,3 +17,4 @@ export const Brand = () => {
         </div>
     )
 }
+export default Brand;

@@ -1,4 +1,5 @@
 import styles from "./footer.module.css";
+import Link from 'next/link';
 // import logo from '../media/logo.png';
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -9,7 +10,7 @@ export const Footer = () => {
         <div className={styles.footer_body}>
             <div className={styles.upr_content}>
                 <div className={styles.colm}>
-                    <div><span className={styles.gtext}>welcome</span></div>
+                   <Link href="/explore"> <div><span className={styles.gtext}>welcome</span></div></Link>
                     <div className={styles.ftext}><span className={styles.ftext}>about us</span></div>
                     <div className={styles.ftext}><span className={styles.ftext}>blog</span></div> 
                 </div>

@@ -13,6 +13,7 @@
     background: linear-gradient(to bottom, rgba(79, 117, 242, 0.067), rgba(79, 223, 242, 0.138));
     border-radius: 6rem;
     height: 180px;
+    position: relative;
 }
 .abt_img{
     margin: 0;
@@ -43,4 +44,18 @@
     width: 230px;
     height: 170px;
    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1450px) {
+    .abt_lower{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        margin: 3rem 5rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .abt_lower{
+        margin: 2rem 1rem;
+    }
 }

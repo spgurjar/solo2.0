@@ -22,7 +22,7 @@ const BrandCreds = () => {
                 <div className={styles.colmTitle}>Brand Website</div>
                 <input className={styles.credInput} type="url" value={website} placeholder="https://example.com"  onChange={(e)=>{setWebsite(e.target.value)}} />
 
-                <button className={styles.submitBtn}  onClick={handleSubmit}>Submit</button>
+                <div className={styles.btn_boxx}><button className={styles.submitBtn}  onClick={handleSubmit}>Submit</button></div>
             </div>
         </div>
     )

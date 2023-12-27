@@ -17,7 +17,7 @@ export const About = () => {
                 />
             </div>
             <div className={styles.abt_lower_br}>
-                <div><img className={styles.img} src="/images/cr-abt.png" alt='' /></div>              
+                <div><img className={styles.br_img} src="/images/cr-abt.png" alt='' /></div>              
             </div>
         </div>
     );

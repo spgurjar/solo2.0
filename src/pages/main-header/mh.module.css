@@ -65,6 +65,9 @@
         width: 90vw;
         /* justify-content: flex-start; */
     }
+    .menuIcon{
+        cursor: pointer; 
+      }
 }
 
 @media screen and (max-width: 730px )  {
@@ -78,6 +81,7 @@
     .navbar_window{
         display: flex;
         justify-content: space-between;
+        
         /* background-color: inherit; */
     }
 
@@ -87,6 +91,9 @@
     .menubar_body a{
         text-decoration: none;
     }
+    .menuIcon{
+        cursor: pointer; 
+      }
 
     .navbar_window.active .menubar_body{
         display: flex;
@@ -100,7 +107,8 @@
         padding: 1rem 1.5rem;
         top: 7.3rem;
         right: 2rem;
-        height: 14rem;   
+        height: 14rem; 
+         
     }
     .nav_item{
         margin: 0;
@@ -120,9 +128,11 @@
       }
       .menuIcon{
         padding-right: 0;
+        cursor: pointer; 
       }
+     
       .header_body{
-        margin-bottom: 0;
+        margin: 2rem 1rem;
         width: 80vw;
       }
 }

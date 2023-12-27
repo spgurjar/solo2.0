@@ -1,5 +1,5 @@
 .para_body{
-    margin: 3rem 0 4rem 0;
+    margin: 3rem 13rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -7,12 +7,37 @@
 }
 
 .para_text{
-    text-align: start;
+    /* padding: 0 12rem; */
+    display: flex;
+    text-align: justify;
     line-height: normal;
     color: rgba(255, 255, 255, 1);
     font-size: 20px;
     font-family: Roobert TRIAL, 'Source Sans Pro';
     font-weight: 500;
-    width: 60rem;
+    width: auto;
     margin: 2rem 0;
+    word-wrap: break-word;
+    max-lines: 7;
 }
+
+@media screen and (max-width: 1050px) {
+    .para_body{
+      margin: 1rem 4rem;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+   .para_text{
+    font-size: 16px;
+   }
+  }
+
+  @media screen and (max-width: 500px) {
+    .para_body{
+      margin: 0rem 3rem;
+    }
+    .para_text{
+      font-size: 16px;
+    }
+  }

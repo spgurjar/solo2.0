@@ -24,3 +24,18 @@
 .wImg:hover{
     box-shadow: 2px 1px 30px rgba(173, 216, 230, 0.707)
 }
+
+@media screen and (max-width: 1450px) {
+    .work_img{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .wImg{
+        margin: 0 10px 1rem 10px;
+        width: 250px;
+        height: 400px;
+    }
+}

@@ -4,9 +4,9 @@ import Link from "next/link";
 import { useState } from 'react';
 // import styles from '../src/styles/global.css';
 // import './App.module.css';
-import { Home } from '../src/pages/home/home';
-import { Brand } from '../src/pages/brand/brand';
-import { Creator } from '../src/pages/creator/creator';
+import  Home  from './pages/home/home';
+import  Brand  from './pages/brand/brand';
+import  Creator  from './pages/creator/creator';
 
 // import {AboutUs} from '../src/pages/aboutUs/aboutUs';
 import { ContactUs } from '../src/pages/contactUs/contactUs';
@@ -25,15 +25,16 @@ const App: React.FC = () => {
 
   return (
     <div className= "App" >
-
-       {/* <div>{selectedComponent === 'home' && <Home onButtonClick={handleButtonClick} />}</div>
-       <div>{selectedComponent === 'brand' && <Brand />}</div>
+      
+       {/* <div>{selectedComponent === 'home' && <Home onButtonClick={handleButtonClick} />}</div> */}
+       {/* <div>{selectedComponent === 'brand' && <Brand />}</div>
        <div> {selectedComponent === 'creator' && <Creator />}</div> */}
 
        {/* <div><AboutUs/></div> */}
        {/* <div><ContactUs/></div> */}
-       
+     
        <div><LandingPage/> </div>
+       
        {/* <div className="App_body_upr">
             <div><SideBar /></div>
             <div className="main_container">

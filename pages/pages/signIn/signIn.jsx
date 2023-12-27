@@ -52,15 +52,18 @@ const SignIn = () => {
                 <div className={styles.sidepartUpr}>
                     <div className={styles.uprText}>Start your connection with creators here</div>
                     <div className={styles.uprDesign}>
-                        <div className={styles.design1}><img src="/images/sign1.png" /></div>
-                        <div className={styles.design2}><img src="/images/sign2.png" /></div>
-                        <div className={styles.design3}><img src="/images/sign3.png" /></div>
+                        <div className={styles.design1}><img className={styles.d1} src="/images/sign1.png" /></div>
+                        <div className={styles.design2}><img className={styles.d2} src="/images/sign2.png" /></div>
+                        <div className={styles.design3}><img className={styles.d3} src="/images/sign3.png" /></div>
                     </div>
                 </div>
+
                 <div className={styles.lowerDesign}>
                         <div className={styles.design4}><img className={styles.sign4} src="/images/sign4.png" /></div>
-                        <div className={styles.design5}><img className={styles.sign5} src="/images/sign5.png" /></div>
-                    </div>
+                        <div className={styles.design5}>
+                            <div><img className={styles.sign5} src="/images/sign5.png" /></div>
+                        </div>
+                </div>
             </div>
         </div>
     )

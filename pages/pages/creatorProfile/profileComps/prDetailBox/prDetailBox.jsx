@@ -1,3 +1,4 @@
+import { useState } from "react";
 import styles from "./prDetailBox.module.css";
 import { Player } from 'video-react';
 import 'video-react/dist/video-react.css';
@@ -7,12 +8,36 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { IoLogoFacebook } from "react-icons/io";
 import { FaYoutube } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { GiHamburgerMenu } from "react-icons/gi";
+import Link from 'next/link';
 
 const DetailBox = (props) => {
+    const [isActive, setIsActive] = useState(false);
+
+    const toggleVisibility = () => {
+        setIsActive(!isActive);
+      };
+   
     return(
         <div className={styles.detailBoxBody}>
             <div className={styles.details1}>
-                <div><img className={styles.profilePic} src={`/images/${props.profilePic}.png`} /></div>
+                <div className={styles.creator_header}>
+                    <div><img className={styles.profilePic} src={`/images/${props.profilePic}.png`} /></div>
+
+        {/* Responsive Nav  */}
+            <div className={`${styles.navbar_window} ${isActive ? styles.active : ""}`}>
+            <div onClick={toggleVisibility} className={styles.menuIcon}><GiHamburgerMenu/></div>
+                <div className={styles.menubar_body}>
+                <Link href="/"><span className={styles.nav_item}>Discover</span></Link>
+                <Link href="/message">
+                <span className={styles.nav_item}>Message</span>
+                </Link> 
+                <Link href="/contactUs"><span className={styles.nav_item}>Top 100 Creators</span>  </Link>          
+                <Link href="/SignUp" ><span className={styles.nav_item}>Help</span></Link>
+                <Link href="/SignIn" ><span className={styles.nav_item}>Profile</span></Link>
+            </div>
+            </div>
+          </div>
                 <div className={styles.creatorName}>{props.creatorName}</div>
                 <div className={styles.followerPost}>
                     <div className={styles.followerCount}>{props.fCount}</div>

@@ -10,7 +10,7 @@
     align-items: center;
 }
 
-.work-cr-img{
+.work_cr_img{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -18,11 +18,22 @@
 
 .wCrImg{
     margin: 0 2rem 3rem 2rem;
-    /* width: 832px;
-    height: 605px; */
     width: 632px;
     height: 405px;
 }
 .wCrImg:hover{
     box-shadow: 2px 1px 30px rgba(173, 216, 230, 0.707)
+}
+@media screen and (max-width: 700px) {
+    .wCrImg{
+        width: 340px;
+        height: 230px;
+        margin: 0 5px 2rem 5px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .wCrImg{
+        width: 250px;
+        height: 170px;
+    }
 }

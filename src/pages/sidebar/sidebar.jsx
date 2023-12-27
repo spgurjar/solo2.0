@@ -25,7 +25,7 @@ export const SideBar = () => {
       <div>
          <div className={styles.soloHead}>Solo</div>
          <div className={styles.upperSB}> 
-            <Link href="/SignUp"><SbContent logo = {<FaGlobeAmericas/>} text = "Discover"/></Link>
+            <Link href="/"><SbContent logo = {<FaGlobeAmericas/>} text = "Discover"/></Link>
             <div onClick={toggleVisibility}><SbContent logo = {<MdOutlineMessage/>} text = "Messages"  /></div>
             <SbContent logo = {<IoMdContact/>} text = "Top 100 Creatores"/>
          </div>

@@ -1,17 +1,18 @@
 import styles from "./aboutUs.module.css";
-
-import { NavHead } from "../assets/navHead/navHead";
+import { Header } from "../../../src/pages/main-header/mh";
+// import { NavHead } from "../assets/navHead/navHead";
 import { AbtUs } from "./aboutUsComps/abtUsGrp/abtUsGrp";
 import { Para } from "./aboutUsComps/abtUsPara/abtUsPara";
-import { Footer57 } from "./aboutUsComps/footer57/footer57";
+import { Footer } from "../../../src/pages/footer/footer";
 
 const AboutUs = () => {
     return(
         <div className={styles.desk57_body}>
-            <div><NavHead/></div>
+             <div><Header/></div>
+            {/* <div><NavHead/></div> */}
             <div><AbtUs/> </div>
             <div><Para/></div>
-            <div className={styles.footer57}><Footer57/></div>
+            <div className={styles.footer57}><Footer/></div>
         </div>
     )
 }

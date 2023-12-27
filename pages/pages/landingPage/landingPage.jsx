@@ -8,7 +8,7 @@ const LandingPage = () => {
     return(
         <div className={styles.landingPage_body}>
             <div className={styles.App_body_upr}>
-                <div><SideBar /></div>
+                <div className={styles.sidebar_page}><SideBar /></div>
                 <div className={styles.main_container}>
                    <div><MainBar /></div>
                    <div><Footer /></div>

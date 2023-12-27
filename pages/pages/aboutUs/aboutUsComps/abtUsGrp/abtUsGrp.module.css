@@ -1,17 +1,23 @@
+.abtus_body{
+  align-items: center;
+  margin-bottom: 4rem;
+}
 .group_box {
-    
+    display: flex;
     height: 30rem;
-    margin: 0rem 16rem 4rem 16rem;
+    /* margin: 0rem 16rem 4rem 16rem; */
     position: relative;  
+    justify-content: center;
   }
 
   .abtUs_heading {
+    width: 44rem;
     color: #ffffff;
     display: flex;
     font-family: Roobert TRIAL, 'Source Sans Pro';
     font-size: 136px;
     font-weight: 600;
-    left: 10.5rem;
+    /* left: 10.5rem; */
     position: absolute;
     text-transform: uppercase;
     top: 24rem;
@@ -22,14 +28,13 @@
     border-radius: 580px;
     width: 678px;
     height: 315px;
-    left: 11rem;
+    /* left: 11rem; */
     position: absolute;
     top: 14rem;
   }
 
   .rectangle_radialbox {
     height: 306px;
-    left: 11.5rem;
     position: absolute;
     top: 14rem;
     width: 726px;
@@ -37,7 +42,7 @@
   .rec_rad1 {
       background: radial-gradient(circle 11rem at 50% 50%, rgba(79, 223, 242, 0.255), rgba(79, 222, 242, 0));
       height: 306px;
-      left: 14rem;
+      left: 16rem;
       position: absolute;
       top: 0;
       width: 447px;
@@ -45,7 +50,7 @@
   .rec_raad2 {
       background: radial-gradient(circle 11rem at 50% 50%, rgba(152, 242, 79, 0.219), rgba(152, 242, 79, 0));
       height: 306px;
-      left: 0;
+      left: 1rem;
       position: absolute;
       top: 0;
       width: 447px;
@@ -54,10 +59,86 @@
   .abtUs_pic {
     
     height: 416px;
-    left: 19rem;
+    /* left: 19rem; */
     object-fit: cover;
     position: absolute;
     top: 7rem;
     vertical-align: top;
     width: 416px;
+  }
+
+  @media screen and (max-width: 800px) {
+    .group_box{
+      height: 15rem;
+    }
+    .rectangle_blackbox{
+      width: 310px;
+      height: 170px;
+      top: 7rem;
+    }
+
+    .abtUs_heading{
+      top: 12.6rem;
+      width: 18rem;
+      font-size: 3.3rem;
+      justify-content: center;
+    }
+    .rectangle_radialbox{
+      width: 320px;
+      height: 200px;
+      top: 7rem;
+    }
+    .rec_rad1 {
+      background: radial-gradient(circle 5rem at 50% 50%, rgba(79, 223, 242, 0.255), rgba(79, 222, 242, 0));
+      width: 200px;
+      height: 180px;
+      left: 0px;
+    }
+    .rec_raad2 {
+      background: radial-gradient(circle 5rem at 50% 50%, rgba(152, 242, 79, 0.219), rgba(152, 242, 79, 0));
+      width: 200px;
+      height: 180px;
+      left: 7.8rem;
+    }
+    .abtUs_pic{
+      width: 216px;
+      height: 216px;
+      top: 3rem;
+    }
+    
+  }
+
+
+  @media screen and (max-width: 350px) {
+    .group_box{
+      height: 12rem;
+    }
+    .rectangle_blackbox{
+      width: 250px;
+      height: 140px;
+    }
+    .abtUs_heading{
+      top: 11.6rem;
+      width: 13rem;
+      font-size: 2.5rem;
+      justify-content: center;
+    }
+    .rec_rad1 {
+      background: radial-gradient(circle 4rem at 50% 50%, rgba(79, 223, 242, 0.255), rgba(79, 222, 242, 0));
+      width: 180px;
+      height: 150px;
+      left: 10px;
+    }
+    .rec_raad2 {
+      background: radial-gradient(circle 4rem at 50% 50%, rgba(152, 242, 79, 0.219), rgba(152, 242, 79, 0));
+      width: 180px;
+      height: 150px;
+      left: 8rem;
+    }
+    .abtUs_pic{
+      width: 190px;
+      height: 190px;
+      top: 3rem;
+    }
+
   }

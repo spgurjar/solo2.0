@@ -78,3 +78,52 @@
     color: rgba(255, 222, 0, 1);
 }
 
+@media screen and (max-width: 1150px ){
+    .calciBody{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 2rem;
+    }
+    .calciSlider{
+        margin: 1rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sliderContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3rem;
+    }
+    .slideBox{
+        display: flex;
+        justify-content:  center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 600px ){
+    /*  */
+    .calciResult{
+        align-items: center;
+    }
+
+    .sliderContainer{
+        width: 13rem;
+    }
+    .calciSlider{
+        width: 12rem;
+    }
+    .calciBox{
+        padding: 1rem 2rem;
+    }
+    .calciCount{
+        text-align: center;
+        font-size: 25px;
+    }
+    .calciCap{
+        width: auto;
+        text-align: justify;
+    }
+}

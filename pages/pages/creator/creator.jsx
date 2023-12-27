@@ -4,9 +4,9 @@ import { Nav } from "./creatorComps/navbar/nav";
 import { About } from "./creatorComps/about/about";
 import { Work } from "./creatorComps/work/works";
 import { Help } from "../assets/help/help";
-import { Footer } from "../assets/footer/footer";
+import { Footer } from "../../../src/pages/footer/footer";
 
-export const Creator = () => {
+const Creator = () => {
     return(
         <div className={styles.home_body}>
             <div><Nav/> </div> 
@@ -17,3 +17,4 @@ export const Creator = () => {
         </div>
     )
 }
+export default Creator;

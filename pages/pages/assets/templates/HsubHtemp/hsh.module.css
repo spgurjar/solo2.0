@@ -10,6 +10,7 @@
     font-size: 36px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 550;
+    text-align: center;
 }
 
 .hsh_subhead{
@@ -18,4 +19,20 @@
     color: rgba(187, 187, 187, 1);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1450px) {
+    .hsh_subhead{
+        padding: 0 5rem;
+    }
+}
+@media screen and (max-width: 500px){
+    .hsh_head{
+        font-size: 25px;
+    }
+    .hsh_subhead{
+        font-size: 20px;
+        padding: 0 1rem;
+    }
 }

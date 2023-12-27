@@ -34,6 +34,9 @@
     margin-top: 1rem;
     margin-right: 5rem;
 }
+.cds{
+    padding: inherit;
+}
 
 .viewMore{
     text-align: end;
@@ -45,3 +48,30 @@
     font-weight: 550;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1450px) {
+    .sidebar_page{
+        display: none;
+    }
+    .profileBody{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+ @media screen and (max-width: 1150px) {
+    .collab{
+        margin: 2rem 0;
+    }
+    .collabHead{
+        display: flex;
+        justify-content: center;
+    }
+    .collabDetails{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 2rem 0 1rem 0;
+    }
+    .cds{
+        margin: 1rem;
+    }
+ }

@@ -4,7 +4,7 @@ const nextConfig = {
     async rewrites() {
         return [
           {
-            source: "/",
+            source: "/explore",
             destination: "/pages/landingPage/landingPage",
           },
 
@@ -36,6 +36,21 @@ const nextConfig = {
           {
             source: "/creatorProfile",      
             destination: "/pages/creatorProfile/creatorProfile"
+          },
+
+          {
+            source: "/message",      
+            destination: "/pages/message/sbChild"
+          },
+
+          {
+            source: "/creator",
+            destination: "/pages/creator/creator"
+          },
+
+          {
+            source: "/brand",
+            destination: "/pages/brand/brand"
           },
 
 
