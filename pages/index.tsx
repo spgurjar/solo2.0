@@ -26,14 +26,14 @@ const App: React.FC = () => {
   return (
     <div className= "App" >
       
-       {/* <div>{selectedComponent === 'home' && <Home onButtonClick={handleButtonClick} />}</div> */}
+       <div>{selectedComponent === 'home' && <Home onButtonClick={handleButtonClick} />}</div>
        {/* <div>{selectedComponent === 'brand' && <Brand />}</div>
        <div> {selectedComponent === 'creator' && <Creator />}</div> */}
 
        {/* <div><AboutUs/></div> */}
        {/* <div><ContactUs/></div> */}
      
-       <div><LandingPage/> </div>
+       {/* <div><LandingPage/> </div> */}
        
        {/* <div className="App_body_upr">
             <div><SideBar /></div>

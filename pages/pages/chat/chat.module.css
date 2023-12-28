@@ -1,0 +1,273 @@
+.chat_body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(25, 27, 35, 0.677);
+    height: 100%;
+    display: grid;
+    grid-gap: 0rem;
+    grid-template-columns: minmax(0,0.6fr) minmax(0,2.91fr)
+}
+.chat_section{
+    width: 70vw;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column; 
+    /* align-items: center;   */
+}
+.head_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_head{
+    display: flex;
+    background-color: rgba(37, 38, 45, 1);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding:5px 1rem;
+    width: 70vw;
+}
+.head_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hd_cr_name{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+.agree_btn{
+    color: rgba(255, 222, 0, 1);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(25, 27, 35, 1);
+    padding: 10px 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.rate_btn{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(25, 27, 35, 1);
+    padding: 10px 14px;
+    margin-left: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.brand_nam{
+    margin-top: 3rem;
+    color: rgba(255, 222, 0, 1);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.camp_details{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem 6rem 1rem 0;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    width: 20rem;
+    height: auto;
+    word-wrap: break-word;
+}
+.detail_item{
+    
+    display: flex;
+    margin: 10px;
+   
+}
+.item_hd{
+    color: rgba(152, 242, 79, 0.879);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-wrap: wrap;
+}
+.item_res{
+    display: flex;
+    color: rgba(187, 187, 187, 1);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* width: 5rem; */
+    /* height: auto; */
+    word-wrap: break-word;
+    /* overflow: hidden; */
+}
+.content_container{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.creator_nam{
+    display: flex;
+    color: rgba(79, 222, 242, 1);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: flex-end;
+}
+.post_box{
+    margin-top: 1rem;
+}
+.content_cap{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.vdo_box{
+    margin-top: 1rem;
+    width: 450px;
+    height: 240px;
+    border-radius: 10px;
+}
+.script_box{
+    padding: 1rem;
+    margin-top: 4rem;
+    width:450px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.reply_btn_box{
+    margin-top: 2rem;
+    display: flex;
+}
+.accept_btn{
+    margin-right: 10px;
+    padding: 1rem 2rem;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(117.98deg, rgba(137, 122, 26, 0.4) -41.24%, rgba(255, 222, 0, 0) 410.7%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.feedback_btn{
+    margin-right: 10px;
+    padding: 1rem 2rem;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(99.8deg, rgba(143, 41, 41, 0.4) -14.49%, rgba(255, 140, 140, 0.219) 166.93%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.feedback_box{
+    margin-top: 1rem;
+}
+.feed_input{
+    padding: 10px 1rem;
+    border-radius: 6px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 0.7) ;
+}
+.link_box{
+    padding: 1rem;
+    margin-top: 1rem;
+    width:450px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.closing_box{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.closing_caption1{
+    padding: 1.5rem 1rem;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(183.45deg, rgba(152, 242, 79, 0.2) -68.11%, rgba(200, 55, 171, 0.2) 192.32%);
+    border-radius: 10px; 
+}
+.closing_caption2{
+    margin: 2rem 0;
+    color: rgba(255, 140, 140, 1);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rate_box{
+    display: flex;
+    background-color: rgba(217, 217, 217, 0.05);
+    border-radius: 6px;
+    padding: 10px 1rem;
+}
+.rate_text{
+    margin-right: 10px;
+}
+.rate_icon{
+    margin: 0 4px;
+}
+
+@media screen and (max-width: 1450px) {
+    .sidebar_page{
+        display: none;
+    }
+    .chat_body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 600px){
+    .chat_section{
+        margin: 2rem 10px;
+    }
+    .camp_details{
+        width: auto;
+        padding: 1rem 1rem 1rem 0;
+    }
+    .vdo_box{
+        width: 250px;
+        height: 200px;
+    }
+    .script_box{
+        width: auto;
+    }
+    .link_box{
+        width: auto;
+        word-break: break-all;
+    }
+    .form_head{
+        padding: 10px 10px;
+        width: 90vw;
+    }
+    .hd_cr_name{
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    .agree_btn{
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+    .rate_btn{
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+}
+@media screen and (max-width: 400px){
+    .vdo_box{
+        width: 200px;
+        height: 180px;
+    }
+    .reply_btn_box{
+        flex-direction: column;
+    }
+    .accept_btn{
+        padding: 10px 1rem;
+    }
+    .feedback_btn{
+        padding: 10px 1rem;
+        margin-top: 1rem;
+    }
+}

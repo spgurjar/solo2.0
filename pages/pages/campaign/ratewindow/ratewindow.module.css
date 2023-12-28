@@ -1,0 +1,106 @@
+.ratewindowContainer {
+    position: relative;
+}
+.rate_btn{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(25, 27, 35, 1);
+    padding: 7px 14px;
+    margin-left: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.ratewindow {
+    position: absolute;
+    top: 14.5rem;
+    /* right: -16.5; */
+    width: auto;
+    /* height: 650px; */
+    transform: translate(-50%, -50%);
+    background-color: rgba(37, 38, 45, 1);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999; 
+    display: none; 
+}
+.ratewindowContainer.active .ratewindow{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-wrap: wrap;
+}
+.cr_pro_box{
+    margin: 2rem 1rem 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profilePic{
+    width: 60px;
+}
+.pr_detail{
+    display: flex;
+    flex-direction: column;
+}
+.creatorName{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 1rem 0 1rem;
+}
+.followerPost{
+    display: flex;
+    margin: 10px 1rem;
+
+    color: rgba(79, 222, 242, 1);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.postCount{
+    padding-left: 1rem;
+}
+
+.creatorIntro{
+    color: rgba(187, 187, 187, 1);
+    font-size: 16px;
+    margin: 1rem 0 0 0;
+    text-align: center;
+    /* padding-right: 4rem; */
+    /* width: 650px; */
+}
+
+.rate_box{
+    color: rgba(187, 187, 187, 1);
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(217, 217, 217, 0.05);
+    border-radius: 6px;
+    padding: 10px 1rem;
+}
+.rate_text{
+    margin-right: 10px;
+}
+.rate_icon{
+    margin:4px 4px 0 0;
+}
+@media screen and (max-width: 600px) {
+    .cr_pro_box{
+        flex-direction: column;
+    }
+    .pr_detail{
+       align-items: center;
+    }
+    .ratewindow{
+        top: 17rem;
+    }
+    .creatorName{
+        font-size: 14px;
+    }
+    .followerPost{
+        font-size: 14px;
+    }
+}

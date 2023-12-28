@@ -45,6 +45,9 @@
     align-items: center;
     cursor: pointer;
 }
+.buttonBox a{
+    text-decoration: none;
+}
 .msgButton{
     display: flex;
     align-items: center;

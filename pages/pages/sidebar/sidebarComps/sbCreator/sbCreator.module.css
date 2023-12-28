@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .creatorNameSeen{
     margin: 4px 12px;
     display: flex;
@@ -19,6 +20,12 @@
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.crSeen{
+    color: rgba(187, 187, 187, 1);
+}
 .crDate{
+    color: rgba(187, 187, 187, 1);
     margin-right: 1rem;
+    text-decoration: none;
 }

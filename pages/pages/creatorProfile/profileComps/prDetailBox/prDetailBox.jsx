@@ -45,7 +45,7 @@ const DetailBox = (props) => {
                 </div>
                 <div className={styles.creatorIntro}>{props.crIntro}</div>
                 <div className={styles.buttonBox}>
-                    <div className={styles.msgButton}><FaRegMessage className={styles.msgIcon} /><button className={styles.msgBtn}>Message</button> </div>
+                    <Link href="/campaign"> <div className={styles.msgButton}><FaRegMessage className={styles.msgIcon} /><button className={styles.msgBtn}>Message</button> </div></Link>
                     <div className={styles.budgetButton}>
                         <img src="/images/moneyIcon.png" className={styles.moneyIcon}/>
                         <span className={styles.budget}>{props.budget}</span>

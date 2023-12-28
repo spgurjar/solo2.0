@@ -1,0 +1,183 @@
+.camp_body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(8, 8, 8, 0.96);
+    height: 100%;
+    display: grid;
+    grid-gap: 0rem;
+    grid-template-columns: minmax(0,0.6fr) minmax(0,2.91fr)
+}
+.camp_form_body{
+    margin: 2rem 2rem 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.camp_form{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+.form_head{
+    display: flex;
+    background-color: rgba(37, 38, 45, 1);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding:5px 1rem;
+}
+.head_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hd_cr_name{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+.agree_btn{
+    color: rgba(255, 222, 0, 1);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(25, 27, 35, 1);
+    padding: 10px 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.rate_btn{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(25, 27, 35, 1);
+    padding: 10px 14px;
+    margin-left: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.CredForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+}
+.colmTitle{
+    margin: 1rem ;
+    color: rgba(187, 187, 187, 1);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.credInput{
+    margin: 1rem 1rem 0 1rem;
+    background-color: rgba(37, 38, 45, 0.5);
+    color: rgba(187, 187, 187, 1);
+    /* font-size: 20px; */
+    border: none;
+    padding: 13px 1rem;
+    border-radius: 10px;
+}
+.credInput_bpfr{
+    margin: 1rem 1rem 0 1rem;
+    background-color: rgba(37, 38, 45, 0.5);
+    color: rgba(187, 187, 187, 1);
+    /* font-size: 20px; */
+    border: none;
+    padding: 13px 1rem;
+    border-radius: 10px;
+}
+.sendBtn{
+    margin-top: 2rem;
+    margin-left: 15px;
+    background: linear-gradient(117.98deg, rgba(137, 122, 26, 0.4) -41.24%, rgba(255, 222, 0, 0) 410.7%);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 2rem;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    cursor: pointer;
+}
+.dltBtn{
+    margin-top: 2rem;
+    margin-left: 15px;
+    background: linear-gradient(99.8deg, rgba(143, 41, 41, 0.4) -14.49%, rgba(255, 140, 140, 0.219) 166.93%);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 2rem;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    cursor: pointer;
+}
+.btn_boxx{
+    display: flex;
+}
+.bpfr{
+    display: flex;
+    flex-direction: row;
+}
+.bpfr_items{
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width: 600px) {
+    .colmTitle{
+        font-size: 16px;
+    }
+    .credInput{
+        padding: 10px 2rem
+    }
+    .submitBtn{
+        padding: 10px 10px;
+        width: 170px;
+        font-size: 15px;
+        margin-left: 0;
+    }
+    .btn_boxx{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .sidebar_page{
+        display: none;
+    }
+    .camp_body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 900px){
+    .bpfr{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 700px){
+    .camp_form{
+        width: auto;
+    }
+}
+@media screen and (max-width: 500px){
+    .form_head{
+        padding: 10px 10px;
+        width: 90vw;
+    }
+    .hd_cr_name{
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    .agree_btn{
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+    .rate_btn{
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+}

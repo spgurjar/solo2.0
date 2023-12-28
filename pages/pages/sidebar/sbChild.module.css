@@ -5,6 +5,9 @@
     width: 340px;
     height: 1136px;
 }
+.sbChildBody a{
+    text-decoration: none;
+}
 .searchBody{
     padding: 12px;
     display: flex;

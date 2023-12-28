@@ -53,11 +53,21 @@ const nextConfig = {
             destination: "/pages/brand/brand"
           },
 
+          {
+            source: "/campaign",
+            destination: "/pages/campaign/campaign"
+          },
+
+          {
+            source: "/chat",
+            destination: "/pages/chat/chat"
+          },
+
 
           {
             source: "/static/media/:path*",
             destination: "/static/media/:path*",
-        },
+          },
 
         ];
       },
